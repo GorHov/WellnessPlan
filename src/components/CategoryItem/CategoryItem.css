@@ -1,0 +1,61 @@
+.item {
+    height: 50px;
+    width: 100%;
+    border: 3px solid #ECF0F1;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.options {
+    width: 22%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 20px;
+}
+
+.dots {
+    width: 20px;
+}
+
+.title {
+    opacity: 0.8;
+    font-weight: 400;
+    font-size: 14px;
+    padding-left: 20px;
+}
+
+.st-completed {
+    color: #BFDEBA;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.st-booked {
+    color: #085199;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.st-book {
+    color: #1172D0;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+/* .logo-wrapper svg path{
+    fill: green !important;
+  } */
+.icon {
+    width: 15px;
+    margin-right: 10px;
+}
+
+.d-flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

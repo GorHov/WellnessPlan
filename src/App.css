@@ -1,0 +1,98 @@
+.App {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+}
+
+.conteiner {
+  width: 98vw;
+  height: 88vh;
+  border: 2px solid #ECF0F1;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.sm-conteiner {
+  width: 98vw;
+  height: 10vh;
+  border: 2px solid #ECF0F1;
+  border-radius: 10px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.button_sh {
+  margin-right: 30px;
+  border: none;
+  padding: 0;
+  border-bottom: 1px solid #8C8C8C;
+  background-color: transparent;
+  color: #8C8C8C;
+}
+
+.circul {
+  width: 200px;
+  height: 200px;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.class-1 {
+  width: 25%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.class-2 {
+  width: 75%;
+  height: 100vh;
+}
+
+.calendar {
+  height: 90px;
+  width: 95%;
+}
+
+.category-item {
+  height: 100px;
+  width: 95%;
+}
+
+.header {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.bold-text {
+  font-weight: 600;
+  padding-right: 5px;
+}
+
+.grey-text {
+  color: #97999A;
+}
+
+p {
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-bottom: 0;
+  font-weight: 600;
+}
+
+.d-title {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  font-size: 14px;
+}
